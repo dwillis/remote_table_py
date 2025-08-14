@@ -2,10 +2,22 @@
 name = "remote_table"
 version = "0.1.0"
 description = "A Python port of the remote_table Ruby gem. Reads tabular data from local and remote sources."
-authors = ["David Willis <dwillis@gmail.com>"]
+authors = [
+	{ name = "Derek Willis", email = "dwillis@gmail.com" },
+]
 license = "MIT"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.12"
+dependencies = [
+	"pandas>=2.3.0",
+	"numpy>=1.25.0",
+	"requests",
+	"openpyxl",
+	"pyyaml",
+	"beautifulsoup4",
+	"lxml",
+	"odfpy",
+]
 
 [project.urls]
 Homepage = "https://github.com/dwillis/remote_table"
@@ -13,11 +25,3 @@ Homepage = "https://github.com/dwillis/remote_table"
 [tool.uv]
 # uv will use this pyproject.toml for dependency management
 
-[project.dependencies]
-pandas = "*"
-requests = "*"
-openpyxl = "*"
-pyyaml = "*"
-beautifulsoup4 = "*"
-lxml = "*"
-odfpy = "*"
