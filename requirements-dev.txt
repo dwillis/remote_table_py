@@ -1,0 +1,13 @@
+# Development/test requirements for this project
+# Install with: pip install -r requirements-dev.txt
+
+pytest>=7.0
+pandas>=2.0
+numpy>=1.25
+beautifulsoup4
+lxml
+openpyxl
+pyyaml
+odfpy
+# Optional: tooling used in this repo
+# uv

@@ -17,6 +17,8 @@ dependencies = [
 	"beautifulsoup4",
 	"lxml",
 	"odfpy",
+	"pytest>=8.4.1",
+	"bs4>=0.0.2",
 ]
 
 [project.urls]
